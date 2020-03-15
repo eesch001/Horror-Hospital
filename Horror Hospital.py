@@ -6,7 +6,7 @@ import sys
 
 
 def title_screen():
- input("\nWelcome to Hospital Horrors! Press any key to continue.")
+ input("\nWelcome to Hospital Horrors! Press enter to continue.")
  input("\nmove left: a\nmove right:d\nmove up:w\nmove down:s\npick up object:p\nopen doors:i")
  input("\nLet's begin!")
  wake_up()
@@ -1002,7 +1002,7 @@ def you_died_blob_monster_pool_corridor():
 
 
 
-#title_screen()
+title_screen()
 #wake_up()
 #flash_light()
 #hallway_one()
@@ -1016,7 +1016,7 @@ def you_died_blob_monster_pool_corridor():
 #slime_monster()
 #hallway_fourth_block_two()
 #c2_room()
-writing_on_wall_c2_room()
+#writing_on_wall_c2_room()
 #hallway_block_two_three_backwards()
 #pool_corridor()
 
